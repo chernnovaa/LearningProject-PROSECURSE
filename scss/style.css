@@ -1,0 +1,15 @@
+.color-one {
+  color: green;
+}
+
+.color-three {
+  color: yellow;
+}
+
+.color-two {
+  color: red;
+}
+
+body {
+  background-color: #000;
+}
