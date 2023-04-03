@@ -1,9 +1,5 @@
-@use './components/fonts.scss';
+@use './base/normalize.scss';
+@use './abstracts/variables.scss';
 @use './components/buttons.scss';
-@use './components/header.scss';
-@use './components/color.scss'
-
-$color-bg: #000;
-body {
-  background-color: $color-bg;
-}
+@use './layout/header.scss';
+@use './layout/footer.scss';
