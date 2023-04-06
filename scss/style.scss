@@ -3,3 +3,115 @@
 @use './components/buttons.scss';
 @use './layout/header.scss';
 @use './layout/footer.scss';
+
+
+
+// HEADER.SCSS
+.header {
+  padding-top: 36px;
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  &__top {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+  }
+}
+
+.menu {
+  display: flex;
+  &__list {
+    display: flex;
+    gap: 26px;
+  }
+  &__item {
+    font-family: 'Open Sans', sans-serif;
+    // $font-family-first
+    font-weight: 600;
+    font-size: 14px;
+    // $size-text
+    color: #737373;
+    // $color-gray
+    letter-spacing: 0.2px;
+  }
+  &-btn {
+    position: absolute;
+    top: 45px;
+    right: 60px;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & span {
+      height: 2px;
+      width: 100%;
+      background-color: #252B42; 
+      // $color-dark-blue
+    }
+  }
+}
+
+.promo {
+  padding: 115px 0 80px;
+  &__content {
+    max-width: 400px;
+     &-title {
+      font-family: 'Martel', serif;
+      // $font-family-second
+      font-weight: 900;
+      font-size: 58px;
+      line-height: 65px;
+      letter-spacing: 0.2px;
+      color: #252B42;
+      // $color-dark-blue
+      margin: 0;
+      padding-bottom: 35px;
+    }
+     &-text {
+      font-family: 'Montserrat', sans-serif;
+      // $font-family-third
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.2px;
+      color: #737373;
+      // $color-gray
+      padding-bottom: 35px;
+    }
+  }
+  &__btn-first {
+    font-family: 'Open Sans', sans-serif;
+    // $font-family-first
+    font-weight: 700;
+    font-size: 14px;
+    // $size-text
+    letter-spacing: 0.2px;
+    background-color: #784F33;
+    // $color-brown
+    color: #fff;
+    // $color-white
+    padding: 10px 36px;
+    border-radius: 37px;
+    margin-right: 10px;
+  }
+  &__btn-second {
+    font-family: 'Open Sans', sans-serif;
+    // $font-family-first
+    font-weight: 700;
+    font-size: 14px;
+    // $size-text
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    border: 1px solid #784F33;
+    // $color-brown
+    color: #784F33;
+    // $color-brown
+    padding: 10px 36px;
+    border-radius: 37px;
+  }
+}

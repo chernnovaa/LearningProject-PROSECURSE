@@ -24,7 +24,119 @@ p {
   margin: 0;
 }
 
+button {
+  color: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
 .container {
+  width: 1050px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.header {
+  padding-top: 36px;
+}
+
+.header {
+  padding-top: 36px;
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+}
+.menu__list {
+  display: flex;
+  gap: 26px;
+}
+.menu__item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #737373;
+  letter-spacing: 0.2px;
+}
+.menu-btn {
+  position: absolute;
+  top: 45px;
+  right: 60px;
+  width: 40px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu-btn span {
+  height: 2px;
+  width: 100%;
+  background-color: #252B42;
+}
+
+.promo {
+  padding: 115px 0 80px;
+}
+.promo__content {
+  max-width: 400px;
+}
+.promo__content-title {
+  font-family: "Martel", serif;
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin: 0;
+  padding-bottom: 35px;
+}
+.promo__content-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-bottom: 35px;
+}
+.promo__btn-first {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  background-color: #784F33;
+  color: #fff;
+  padding: 10px 36px;
+  border-radius: 37px;
+  margin-right: 10px;
+}
+.promo__btn-second {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  background-color: transparent;
+  border: 1px solid #784F33;
+  color: #784F33;
+  padding: 10px 36px;
+  border-radius: 37px;
 }
