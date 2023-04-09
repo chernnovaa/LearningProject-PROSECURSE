@@ -70,7 +70,7 @@
 }
 
 .promo {
-  padding-top: 190px;
+  padding-top: 210px;
   &__content {
     max-width: 400px;
      &-title {
@@ -128,7 +128,7 @@
     border-radius: 37px;
   }
   &__card {
-    padding-top: 80px;
+    padding-top: 200px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -161,12 +161,80 @@
       // $font-family-first
       font-weight: 400;
       font-size: 14px;
+      // $size-text
       color: #737373;
       // $color-gray
       &--dark {
         color: #fff;
         // $color-white
       }
+    }
+  }
+}
+
+// CLIENT
+.title {
+  font-family: 'Martel', serif;
+  // $font-family-second
+  font-weight: 700;
+  font-size: 40px; 
+  // $size-title
+  color: #252B42;
+  // $color-dark-blue
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0;
+}
+.text {
+  font-family: 'Open Sans', sans-serif;
+  // $font-family-first
+  font-weight: 400;
+  font-size: 14px;
+  // $size-text
+  color: #737373;
+  // $color-gray
+  text-align: center;
+  max-width: 455px;
+  margin: 0 auto;
+}
+
+
+.client {
+  padding: 165px 0 95px;
+  background-color: #fafafa;
+  &__box {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    &-item {
+      background-color: #fff;
+      // $color-white
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 230px;
+    }
+    &-number {
+      font-family: 'Martel', serif;
+      // $font-family-second
+      font-weight: 700;
+      font-size: 40px;
+      // $size-title
+        color: #252B42;
+      // $color-dark-blue
+    }
+    &-text {
+      font-family: 'Martel', serif;
+      // $font-family-second
+      font-weight: 700;
+      font-size: 16px;
+      // $size-subtitle
+      color: #737373;
+      // $color-gray
+      text-transform: uppercase;
     }
   }
 }
