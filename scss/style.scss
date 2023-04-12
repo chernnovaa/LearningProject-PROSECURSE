@@ -198,10 +198,12 @@
   margin: 0 auto;
 }
 
-
-.client {
-  padding: 165px 0 95px;
+.about {
   background-color: #fafafa;
+  padding: 165px 0 87px;
+}
+.client {
+  padding-bottom: 95px;
   &__box {
     padding-top: 50px;
     display: flex;
@@ -223,7 +225,7 @@
       font-weight: 700;
       font-size: 40px;
       // $size-title
-        color: #252B42;
+      color: #252B42;
       // $color-dark-blue
     }
     &-text {
@@ -235,6 +237,94 @@
       color: #737373;
       // $color-gray
       text-transform: uppercase;
+    }
+  }
+}
+.practice {
+  padding-top: 125px;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 45px;
+    &-item {
+      background-color: #fff;
+      // $color-white
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &-content {
+      padding: 30px 42px 0 30px;
+    }
+    &-title {
+      font-family: 'Martel', serif;
+      // $font-family-second
+      font-weight: 700;
+      font-size: 16px;
+      // $size-subtitle
+      color: #252B42;
+      // $color-dark-blue
+      margin: 0;
+      padding-bottom: 15px;
+      max-width: 120px;
+    }
+    &-text {
+      text-align: inherit;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+// WE
+.we {
+  padding: 160px 0 145px;
+  &__box {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    gap: 120px;
+    &-title {
+      text-align: inherit;
+    }
+    &-text {
+      text-align: inherit;
+    }
+    &-video {
+      background-image: url(../images/we.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+    }
+  }
+  &__list {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    &-title {
+      font-family: 'Martel', serif;
+      // $font-family-second
+      font-weight: 700;
+      font-size: 16px;
+      // $size-subtitle
+      color: #252B42;
+      // $color-dark-blue
+      margin: 0;
+      padding-bottom: 5px;
+    }
+    &-subtitle {
+      font-weight: 700;
+      text-align: inherit;
     }
   }
 }
