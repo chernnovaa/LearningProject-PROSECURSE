@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prosecurse</title>
   <link rel="stylesheet" href="scss/style.css">
+  <!-- <link rel="stylesheet" href="scss/base/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="scss/components/buttons.css"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -17,7 +19,7 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="header__top">
+      <div class="nav">
         <a class="logo" href="index.html">
           <img src="images/logo.svg" alt="Prosecurse">
         </a>
@@ -37,12 +39,16 @@
             </li>
           </ul>
         </nav>
+        <div class="nav__icon">
+          <img class="nav__icon-img" src="images/icn-search.svg" alt="search">
+          <img class="nav__icon-img" src="images/icn-shopping.svg" alt="shopping">
+        </div>  
+        <button class="menu-btn">
+          <span class="menu-btn__first"></span>
+          <span class="menu-btn__second"></span>
+          <span class="menu-btn__third"></span>
+        </button>
       </div>
-      <button class="menu-btn">
-        <span class="menu-btn__first"></span>
-        <span class="menu-btn__second"></span>
-        <span class="menu-btn__third"></span>
-      </button>
     </div>
     <div class="promo">
       <div class="container">
@@ -54,22 +60,22 @@
           <button class="promo__btn-second">Learn More</button>
         </div>
         <div class="promo__card">
-          <div class="promo__card-item">
-            <img class="promo__card-img" src="images/promo-card-1.svg" alt="Family Law">
-            <h3 class="promo__card-title">Family Law</h3>
-            <p class="promo__card-text">We focus on ergonomics and
+          <div class="promo__card-item promo-card">
+            <img class="promo__card-img promo-card__icon" src="images/promo-card-1.svg" alt="Family Law">
+            <h3 class="promo__card-title promo-card__title">Family Law</h3>
+            <p class="promo__card-text promo-card__text">We focus on ergonomics and
               meeting you where you work.</p>
           </div>
-          <div class="promo__card-item">
-            <img class="promo__card-img" src="images/promo-card-2.svg" alt="Business Law">
-            <h3 class="promo__card-title">Business Law</h3>
-            <p class="promo__card-text">Just type what's on your mind
+          <div class="promo__card-item promo-card">
+            <img class="promo__card-img promo-card__icon" src="images/promo-card-2.svg" alt="Business Law">
+            <h3 class="promo__card-title promo-card__title">Business Law</h3>
+            <p class="promo__card-text promo-card__text">Just type what's on your mind
               and we'll get you there.</p>
           </div>
-          <div class="promo__card-item promo__card-item--dark">
-            <img class="promo__card-img" src="images/promo-card-3.svg" alt="Trust & Estates">
-            <h3 class="promo__card-title promo__card-title--dark">Trust & Estates</h3>
-            <p class="promo__card-text promo__card-text--dark">the quick fox jumps over the
+          <div class="promo__card-item promo-card promo-card__dark">
+            <img class="promo__card-img promo-card__icon" src="images/promo-card-3.svg" alt="Trust & Estates">
+            <h3 class="promo__card-title promo-card__title promo-card__title--dark">Trust & Estates</h3>
+            <p class="promo__card-text promo-card__text promo-card__text--dark">the quick fox jumps over the
               lazy dog</p>
           </div>
         </div>
@@ -198,6 +204,79 @@
         </div>
       </div>
     </section>
+    <div class="partners">
+      <div class="container">
+        <div class="partners__wrapper">
+          <a class="partners__link" href="#">
+            <img class="partners__img" src="images/subscribe-1.svg" alt="image">
+          </a>
+          <a class="partners__link" href="#">
+            <img class="partners__img" src="images/subscribe-2.svg" alt="image">
+          </a>
+          <a class="partners__link" href="#">
+            <img class="partners__img" src="images/subscribe-3.svg" alt="image">
+          </a>
+          <a class="partners__link" href="#">
+            <img class="partners__img" src="images/subscribe-4.svg" alt="image">
+          </a>
+          <a class="partners__link" href="#">
+            <img class="partners__img" src="images/subscribe-5.svg" alt="image">
+          </a>
+          <a class="partners__link" href="#">
+            <img class="partners__img" src="images/subscribe-6.svg" alt="image">
+          </a>
+        </div>
+        <div class="subscribe-form">
+          <h3 class="subscribe-form__title title">Subscribe For Latest 
+            Newsletter</h3>
+            <form class="form" action="#">
+              <input class="form__input" type="text" placeholder="Your Email">
+              <button class="form__button" type="submit">Subscribe</button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <section class="contact">
+      <div class="container">
+        <h2 class="title contact__title">Get In Touch</h2>
+        <p class="text contact__text">Problems trying to resolve the conflict between 
+          the two major realms of Classical physics: Newtonian mechanics </p>
+          <div class="contact-wrapper">
+            <div class="contact__item contact__item-light">
+              <img class="contact__item-img" src="images/contact-1.svg" alt="">
+              <a class="contact__item-link" href="#">georgia.young@example.com</a>
+              <a class="contact__item-link" href="#">georgia.young@ple.com</a>
+              <h5 class="contact__item-text">Get Support</h5>
+              <button class="contact__item-btn">Submit Request</button>
+            </div>
+            <div class="contact__item contact__item-dark">
+              <img class="contact__item-img" src="images/contact-2.svg" alt="">
+              <a class="contact__item-link contact__item-link--dark" href="#">georgia.young@example.com</a>
+              <a class="contact__item-link contact__item-link--dark" href="#">georgia.young@ple.com</a>
+              <h5 class="contact__item-text contact__item-text--dark">Get Support</h5>
+              <button class="contact__item-btn">Submit Request</button>
+            </div>
+            <div class="contact__item contact__item-light">
+              <img class="contact__item-img" src="images/contact-3.svg" alt="">
+              <a class="contact__item-link" href="#">georgia.young@example.com</a>
+              <a class="contact__item-link" href="#">georgia.young@ple.com</a>
+              <h5 class="contact__item-text">Get Support</h5>
+              <button class="contact__item-btn">Submit Request</button>
+            </div>
+          </div>
+      </div>
+    </section>
+    <div class="consultation">
+      <div class="container">
+        <div class="consultation-wrapper">
+          <div class="consyltation-wrapper__box">
+        <h3 class="title consultation__title">Request A Free Consultation</h3>
+        <p class="text consultation__text">the quick fox jumps over the lazy dog</p>
+      </div>
+      <button class="consultation__btn">Contact Us</button>
+    </div>
+      </div>
+    </div>
   </main>
 
 

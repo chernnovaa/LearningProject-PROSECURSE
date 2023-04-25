@@ -1,0 +1,83 @@
+.contact {
+    padding: 80px 0 155px 0;
+    background-color: $color-light-white;
+    &-wrapper {
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item {
+        background-color: $color-white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+        width: 328px;
+        height: 330px;
+        &-img {
+            padding-bottom: 15px;
+        }
+        &-link {
+            font-family: $font-family-first;
+            font-weight: 700;
+            font-size: $size-text;
+            letter-spacing: 0.2px;
+            color: $color-dark-blue;
+            &--dark {
+                color: $color-white;
+            }
+        }
+        &-text {
+            font-family: $font-family-second;
+            font-weight: 700;
+            font-size: $size-subtitle;
+            color: $color-dark-blue;
+            padding: 15px 0;
+            margin: 0;
+            &--dark {
+                color: $color-white;
+            }
+        }
+        &-btn {
+            border: 1px solid $color-light-brown;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: $color-light-brown;
+            font-family: $font-family-first;
+            font-size: $size-text;
+            font-weight: 700;
+        }
+        &-dark {
+            background-color: $color-dark-blue;
+            height: 400px;
+            justify-content: center;
+        }
+    }
+}
+
+.consultation {
+    padding: 40px 0;
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        text-align: inherit;
+        font-size: $size-secondary;
+    }
+    &__text {
+        text-align: inherit;
+        margin: 0;
+    }
+    &__btn {
+        background-color: $color-brown;
+        border-radius: 5px;
+        padding: 15px 40px;
+        color: $color-white;
+        font-family: $font-family-first;
+        font-weight: 700;
+        font-size: $size-text;
+    }
+}

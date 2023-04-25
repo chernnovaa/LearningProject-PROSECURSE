@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    &__icon {
+        display: flex;
+        gap: 25px;
+    }
+}
+
+.menu {
+    display: flex;
+    &__list {
+        display: flex;
+        gap: 26px;
+    }
+    &__item {
+        font-family: 'Open Sans', sans-serif;
+        // $font-family-first
+        font-weight: 600;
+        font-size: 14px;
+        // $size-text
+        color: #737373;
+        // $color-gray
+        letter-spacing: 0.2px;
+    }
+    &-btn {
+        position: absolute;
+        top: 45px;
+        right: 60px;
+        width: 40px;
+        height: 30px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        &__first {
+            height: 2px;
+            width: 100%;
+            background-color: #252b42;
+            // $color-dark-blue
+        }
+        &__second {
+            width: 70%;
+            height: 2px;
+            background-color: #252b42;
+            // $color-dark-blue
+        }
+        &__third {
+            width: 50%;
+            height: 2px;
+            background-color: #252b42;
+            // $color-dark-blue
+        }
+    }
+}
