@@ -91,3 +91,34 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .header {
+        height: auto;
+    }
+    .promo {
+        padding: 195px 0 120px 0;
+        &__card {
+            position: inherit;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .promo__content {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 285px;
+        &-title {
+            font-size: $size-title;
+            font-weight: 700;
+            padding-bottom: 40px;
+        }
+        &-text {
+            padding-bottom: 40px;
+        }
+    }
+    .promo__btn-first {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+}
