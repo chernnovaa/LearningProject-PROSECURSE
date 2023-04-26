@@ -63,7 +63,7 @@ body {
 }
 
 .promo__content-title {
-  font-family: 'Martel', serif;
+  font-family: "Martel", serif;
   font-weight: 900;
   font-size: 58px;
   line-height: 65px;
@@ -74,7 +74,7 @@ body {
 }
 
 .promo__content-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -84,19 +84,19 @@ body {
 }
 
 .promo__btn-first {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.2px;
   background-color: #784f33;
-  color: #fff;
+  color: #ffffff;
   padding: 10px 36px;
   border-radius: 37px;
   margin-right: 10px;
 }
 
 .promo__btn-second {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.2px;
@@ -122,7 +122,7 @@ body {
 
 .promo-card {
   padding: 35px 85px 35px 40px;
-  background-color: #fff;
+  background-color: #ffffff;
   width: 318px;
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 .promo-card__title {
-  font-family: 'Martel', serif;
+  font-family: "Martel", serif;
   font-weight: 700;
   font-size: 24px;
   color: #252b42;
@@ -140,18 +140,18 @@ body {
 }
 
 .promo-card__title--dark {
-  color: #fff;
+  color: #ffffff;
 }
 
 .promo-card__text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #737373;
 }
 
 .promo-card__text--dark {
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer {
@@ -274,7 +274,7 @@ body {
 }
 
 .menu__item {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: #737373;
@@ -318,7 +318,7 @@ body {
 }
 
 .title {
-  font-family: 'Martel', serif;
+  font-family: "Martel", serif;
   font-weight: 700;
   font-size: 40px;
   color: #252b42;
@@ -328,7 +328,7 @@ body {
 }
 
 .text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #737373;
@@ -358,7 +358,7 @@ body {
 }
 
 .client__box-item {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -375,14 +375,14 @@ body {
 }
 
 .client__box-number {
-  font-family: 'Martel', serif;
+  font-family: "Martel", serif;
   font-weight: 700;
   font-size: 40px;
   color: #252b42;
 }
 
 .client__box-text {
-  font-family: 'Martel', serif;
+  font-family: "Martel", serif;
   font-weight: 700;
   font-size: 16px;
   color: #737373;
@@ -405,7 +405,7 @@ body {
 }
 
 .practice__box-item {
-  background-color: #fff;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -423,7 +423,7 @@ body {
 }
 
 .practice__box-title {
-  font-family: 'Martel', serif;
+  font-family: "Martel", serif;
   font-weight: 700;
   font-size: 16px;
   color: #252b42;
@@ -500,7 +500,7 @@ body {
 }
 
 .we__list-title {
-  font-family: 'Martel', serif;
+  font-family: "Martel", serif;
   font-weight: 700;
   font-size: 16px;
   color: #252b42;

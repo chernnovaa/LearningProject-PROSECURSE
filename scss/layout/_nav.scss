@@ -16,13 +16,10 @@
         gap: 26px;
     }
     &__item {
-        font-family: 'Open Sans', sans-serif;
-        // $font-family-first
+        font-family: $font-family-first;
         font-weight: 600;
-        font-size: 14px;
-        // $size-text
-        color: #737373;
-        // $color-gray
+        font-size: $size-text;
+        color: $color-gray;
         letter-spacing: 0.2px;
     }
     &-btn {
@@ -38,20 +35,17 @@
         &__first {
             height: 2px;
             width: 100%;
-            background-color: #252b42;
-            // $color-dark-blue
+            background-color: $color-dark-blue;
         }
         &__second {
             width: 70%;
             height: 2px;
-            background-color: #252b42;
-            // $color-dark-blue
+            background-color: $color-dark-blue;
         }
         &__third {
             width: 50%;
             height: 2px;
-            background-color: #252b42;
-            // $color-dark-blue
+            background-color: $color-dark-blue;
         }
     }
 }
