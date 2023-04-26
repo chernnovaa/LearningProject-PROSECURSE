@@ -1,88 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prosecurse</title>
+        <link rel="stylesheet" href="scss/style.css" />
+        <!-- <link rel="stylesheet" href="scss/base/normalize.css"> -->
+        <!-- <link rel="stylesheet" href="scss/components/buttons.css"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Martel:wght@700;900&family=Montserrat:wght@400;500&family=Open+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prosecurse</title>
-  <link rel="stylesheet" href="scss/style.css">
-  <!-- <link rel="stylesheet" href="scss/base/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="scss/components/buttons.css"> -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Martel:wght@700;900&family=Montserrat:wght@400;500&family=Open+Sans:wght@400;600;700&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="nav">
-        <a class="logo" href="index.html">
-          <img src="images/logo.svg" alt="Prosecurse">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link" href="#">Home</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Product</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Pricing</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="nav__icon">
-          <img class="nav__icon-img" src="images/icn-search.svg" alt="search">
-          <img class="nav__icon-img" src="images/icn-shopping.svg" alt="shopping">
-        </div>  
-        <button class="menu-btn">
-          <span class="menu-btn__first"></span>
-          <span class="menu-btn__second"></span>
-          <span class="menu-btn__third"></span>
-        </button>
-      </div>
-    </div>
-    <div class="promo">
-      <div class="container">
-        <div class="promo__content">
-          <h1 class="promo__content-title">Legal pro services</h1>
-          <p class="promo__content-text">We know how large objects will act,
-            but things on a small scale.</p>
-          <button class="promo__btn-first">Get Quote Now</button>
-          <button class="promo__btn-second">Learn More</button>
-        </div>
-        <div class="promo__card">
-          <div class="promo__card-item promo-card">
-            <img class="promo__card-img promo-card__icon" src="images/promo-card-1.svg" alt="Family Law">
-            <h3 class="promo__card-title promo-card__title">Family Law</h3>
-            <p class="promo__card-text promo-card__text">We focus on ergonomics and
-              meeting you where you work.</p>
-          </div>
-          <div class="promo__card-item promo-card">
-            <img class="promo__card-img promo-card__icon" src="images/promo-card-2.svg" alt="Business Law">
-            <h3 class="promo__card-title promo-card__title">Business Law</h3>
-            <p class="promo__card-text promo-card__text">Just type what's on your mind
-              and we'll get you there.</p>
-          </div>
-          <div class="promo__card-item promo-card promo-card__dark">
-            <img class="promo__card-img promo-card__icon" src="images/promo-card-3.svg" alt="Trust & Estates">
-            <h3 class="promo__card-title promo-card__title promo-card__title--dark">Trust & Estates</h3>
-            <p class="promo__card-text promo-card__text promo-card__text--dark">the quick fox jumps over the
-              lazy dog</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main class="main">
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="nav">
+                    <a class="logo" href="index.html">
+                        <img src="images/logo.svg" alt="Prosecurse" />
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Product</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Pricing</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="nav__icon">
+                        <img
+                            class="nav__icon-img"
+                            src="images/icn-search.svg"
+                            alt="search"
+                        />
+                        <img
+                            class="nav__icon-img"
+                            src="images/icn-shopping.svg"
+                            alt="shopping"
+                        />
+                    </div>
+                    <button class="menu-btn">
+                        <span class="menu-btn__first"></span>
+                        <span class="menu-btn__second"></span>
+                        <span class="menu-btn__third"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="promo">
+                <div class="container">
+                    <div class="promo__content">
+                        <h1 class="promo__content-title">Legal pro services</h1>
+                        <p class="promo__content-text">
+                            We know how large objects will act, but things on a
+                            small scale.
+                        </p>
+                        <button class="promo__btn-first">Get Quote Now</button>
+                        <button class="promo__btn-second">Learn More</button>
+                    </div>
+                    <div class="promo__card">
+                        <div class="promo__card-item promo-card">
+                            <img
+                                class="promo__card-img promo-card__icon"
+                                src="images/promo-card-1.svg"
+                                alt="Family Law"
+                            />
+                            <h3 class="promo__card-title promo-card__title">
+                                Family Law
+                            </h3>
+                            <p class="promo__card-text promo-card__text">
+                                We focus on ergonomics and meeting you where you
+                                work.
+                            </p>
+                        </div>
+                        <div class="promo__card-item promo-card">
+                            <img
+                                class="promo__card-img promo-card__icon"
+                                src="images/promo-card-2.svg"
+                                alt="Business Law"
+                            />
+                            <h3 class="promo__card-title promo-card__title">
+                                Business Law
+                            </h3>
+                            <p class="promo__card-text promo-card__text">
+                                Just type what's on your mind and we'll get you
+                                there.
+                            </p>
+                        </div>
+                        <div
+                            class="promo__card-item promo-card promo-card__dark"
+                        >
+                            <img
+                                class="promo__card-img promo-card__icon"
+                                src="images/promo-card-3.svg"
+                                alt="Trust & Estates"
+                            />
+                            <h3
+                                class="promo__card-title promo-card__title promo-card__title--dark"
+                            >
+                                Trust & Estates
+                            </h3>
+                            <p
+                                class="promo__card-text promo-card__text promo-card__text--dark"
+                            >
+                                the quick fox jumps over the lazy dog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- <main class="main">
     <section class="about">
       <div class="client">
         <div class="container">
@@ -409,9 +448,8 @@
     </div>
     </div>
     </div>
-  </footer>
+  </footer> -->
 
-
-</body>
-
+        <script src="js/main.js"></script>
+    </body>
 </html>

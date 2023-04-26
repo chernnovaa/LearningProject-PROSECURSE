@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     position: relative;
     &__icon {
         display: flex;
@@ -24,14 +24,13 @@
     }
     &-btn {
         position: absolute;
-        top: 45px;
-        right: 60px;
         width: 40px;
-        height: 30px;
+        height: 29px;
         display: none;
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-end;
+        padding: 0;
         &__first {
             height: 2px;
             width: 100%;
@@ -47,5 +46,35 @@
             height: 2px;
             background-color: $color-dark-blue;
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-btn {
+        display: flex;
+        position: relative;
+    }
+    .menu-btn,
+    .nav__icon,
+    .logo {
+        position: relative;
+        z-index: 10;
+    }
+    .menu__list {
+        position: absolute;
+        display: none;
+        background-color: #f6f6f6;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        align-items: center;
+        z-index: 5;
+        transform: translateY(-100%);
+    }
+    .menu__list.menu__list--active {
+        transform: translateY(-0%);
+        display: flex;
     }
 }
