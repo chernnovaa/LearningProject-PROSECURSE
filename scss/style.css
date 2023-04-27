@@ -108,13 +108,11 @@ body {
 }
 
 .promo__card {
-  margin-top: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin: 80px 20px 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   position: absolute;
   bottom: -30px;
@@ -123,7 +121,7 @@ body {
 .promo-card {
   padding: 35px 85px 35px 40px;
   background-color: #ffffff;
-  width: 318px;
+  max-width: 318px;
 }
 
 .promo-card__dark {
@@ -154,7 +152,20 @@ body {
   color: #ffffff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 910px) {
+  .promo__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    right: 0;
+  }
+}
+
+@media (max-width: 750px) {
   .header {
     height: auto;
   }
