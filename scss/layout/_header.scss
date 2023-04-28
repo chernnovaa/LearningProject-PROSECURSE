@@ -8,9 +8,11 @@
 }
 
 .promo {
-    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
     &__content {
         max-width: 400px;
+        padding-top: 17vh;
     }
     &__content-title {
         font-family: $font-family-second;
@@ -54,7 +56,7 @@
         border-radius: 37px;
     }
     &__card {
-        margin: 80px 20px 0 0;
+        margin-right: 10px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
@@ -70,28 +72,16 @@
     &__dark {
         background-color: $color-blue;
     }
-    &__title {
-        font-family: $font-family-second;
-        font-weight: 700;
+    &__title.title-secondary {
         font-size: $size-secondary;
-        color: $color-dark-blue;
-        margin: 0;
-        padding-bottom: 10px;
-        &--dark {
-            color: $color-white;
-        }
     }
-    &__text {
-        font-family: $font-family-first;
-        font-weight: 400;
-        font-size: $size-text;
-        color: $color-gray;
-        &--dark {
-            color: $color-white;
-        }
+    &__title-white.title-secondary {
+        color: $color-white;
+    }
+    &__text-white.main-text {
+        color: $color-white;
     }
 }
-
 @media (max-width: 910px) {
     .promo__card {
         display: flex;
@@ -105,11 +95,13 @@
         height: auto;
     }
     .promo {
-        padding: 195px 0 120px 0;
+        padding-bottom: 120px;
         &__card {
             position: inherit;
             flex-direction: column;
             align-items: center;
+            margin-right: 0;
+            padding-top: 80px;
         }
     }
     .promo__content {
