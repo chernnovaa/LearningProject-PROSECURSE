@@ -823,7 +823,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 50px 0;
-  width: 328px;
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
   height: 330px;
 }
 
