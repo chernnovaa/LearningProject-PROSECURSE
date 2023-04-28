@@ -6,11 +6,9 @@
         justify-content: space-between;
         color: $color-white;
         padding-bottom: 52px;
-        &__title {
-            font-family: $font-family-second;
-            font-weight: 700;
+        &__title.title-secondary {
             font-size: $size-subtitle;
-            margin: 0;
+            color: $color-white;
             padding-bottom: 20px;
         }
     }
@@ -37,11 +35,8 @@
             justify-content: space-between;
             align-items: center;
         }
-        &__text {
-            color: $color-gray;
-            font-family: $font-family-first;
+        &__text.main-text {
             font-weight: 700;
-            font-size: $size-text;
         }
     }
     &__social {

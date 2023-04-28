@@ -21,12 +21,11 @@
     align-items: center;
     background-color: $color-blue;
     padding: 30px 50px;
-    &__title {
+    &__title.title-secondary {
         color: $color-white;
         font-size: $size-secondary;
         padding-bottom: 0;
         max-width: 250px;
-        text-align: inherit;
     }
 }
 

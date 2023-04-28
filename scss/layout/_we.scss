@@ -1,15 +1,20 @@
 .we {
     padding: 160px 0 145px;
+    &__title {
+        text-align: center;
+    }
+    &__text {
+        text-align: center;
+        max-width: 455px;
+        margin: 0 auto;
+    }
     &__box {
         display: flex;
         padding-top: 100px;
         justify-content: space-between;
         gap: 120px;
-        &-title {
-            text-align: inherit;
-        }
-        &-text {
-            text-align: inherit;
+        &-content {
+            max-width: 320px;
         }
         &-video {
             background-image: url(../images/we.jpg);
@@ -32,17 +37,12 @@
             align-items: flex-start;
             gap: 20px;
         }
-        &-title {
-            font-family: $font-family-second;
-            font-weight: 700;
+        &-title.title-secondary {
             font-size: $size-subtitle;
-            color: $color-dark-blue;
-            margin: 0;
             padding-bottom: 5px;
         }
-        &-subtitle {
+        &-subtitle.main-text {
             font-weight: 700;
-            text-align: inherit;
         }
     }
 }
