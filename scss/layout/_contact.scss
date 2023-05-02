@@ -60,3 +60,20 @@
         font-size: $size-secondary;
     }
 }
+
+@media (max-width: 750px) {
+    .contact-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contact__item {
+        padding: 50px 40px 50px 40px;
+    }
+    .consultation-wrapper {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .consultation__text {
+        padding-bottom: 50px;
+    }
+}
