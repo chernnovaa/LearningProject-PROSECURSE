@@ -41,15 +41,6 @@
         &-text--dark.title-secondary {
             color: $color-white;
         }
-        &-btn {
-            border: 1px solid $color-light-brown;
-            border-radius: 5px;
-            padding: 10px 20px;
-            color: $color-light-brown;
-            font-family: $font-family-first;
-            font-size: $size-text;
-            font-weight: 700;
-        }
         &-dark {
             background-color: $color-dark-blue;
             height: 400px;
@@ -67,14 +58,5 @@
     }
     &__title.title-secondary {
         font-size: $size-secondary;
-    }
-    &__btn {
-        background-color: $color-brown;
-        border-radius: 5px;
-        padding: 15px 40px;
-        color: $color-white;
-        font-family: $font-family-first;
-        font-weight: 700;
-        font-size: $size-text;
     }
 }

@@ -1,4 +1,26 @@
 .btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    background-color: $color-brown;
+    color: $color-white;
+    padding: 10px 36px;
+    border-radius: 37px;
     &--secondary {
+        background-color: transparent;
+        border: 1px solid $color-brown;
+        color: $color-brown;
+    }
+    &--third {
+        border-radius: 5px;
+        padding: 15px 40px;
+    }
+    &--four {
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: $color-light-brown;
+        border: 1px solid $color-light-brown;
+        background-color: transparent;
     }
 }
