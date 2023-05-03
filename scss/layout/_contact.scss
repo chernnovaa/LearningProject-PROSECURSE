@@ -69,11 +69,17 @@
     .contact__item {
         padding: 50px 40px 50px 40px;
     }
-    .consultation-wrapper {
-        flex-direction: column;
-        align-items: baseline;
+    .contact__text.main-text {
+        font-weight: 700;
     }
-    .consultation__text {
-        padding-bottom: 50px;
+    .consultation {
+        padding: 40px 70px;
+        &-wrapper {
+            flex-direction: column;
+            align-items: baseline;
+        }
+        &__text {
+            padding-bottom: 50px;
+        }
     }
 }

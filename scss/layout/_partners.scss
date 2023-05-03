@@ -74,6 +74,7 @@
 @media (max-width: 520px) {
     .partners {
         background: #fafafa;
+        padding-bottom: 0;
     }
     .partners__wrapper {
         display: flex;
@@ -83,8 +84,15 @@
     }
     .subscribe-form {
         background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
+        padding: 30px 40px;
+        &__title.title-secondary {
+            padding-bottom: 30px;
+        }
     }
     .form {
-        max-width: 330px;
+        max-width: 260px;
+        &__input {
+            max-width: 160px;
+        }
     }
 }

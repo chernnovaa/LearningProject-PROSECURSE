@@ -97,9 +97,8 @@
         &-text {
             padding-bottom: 40px;
         }
-    }
-    .promo__btn-first {
-        margin-bottom: 30px;
-        margin-right: 0;
+        &-btn:first-of-type {
+            margin-bottom: 20px;
+        }
     }
 }

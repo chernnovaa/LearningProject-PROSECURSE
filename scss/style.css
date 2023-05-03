@@ -202,9 +202,8 @@ body {
   .promo__content-text {
     padding-bottom: 40px;
   }
-  .promo__btn-first {
-    margin-bottom: 30px;
-    margin-right: 0;
+  .promo__content-btn:first-of-type {
+    margin-bottom: 20px;
   }
 }
 
@@ -320,6 +319,10 @@ body {
   .footer-content {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
+    padding: 0 0 55px 70px;
+  }
+  .footer-bottom {
+    padding: 25px 70px 25px 70px;
   }
 }
 
@@ -516,6 +519,9 @@ body {
 }
 
 @media (max-width: 750px) {
+  .client {
+    padding-top: 100px;
+  }
   .client__box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -527,6 +533,10 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 75px;
+  }
+  .client__text {
+    max-width: 206px;
   }
 }
 
@@ -614,6 +624,9 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .practice__text {
+    max-width: 206px;
+  }
 }
 
 .we {
@@ -696,6 +709,9 @@ body {
 @media (max-width: 750px) {
   .we {
     padding: 100px 0 150px 0;
+  }
+  .we__text {
+    max-width: 206px;
   }
   .we__box {
     -webkit-box-orient: vertical;
@@ -810,6 +826,7 @@ body {
 @media (max-width: 520px) {
   .partners {
     background: #fafafa;
+    padding-bottom: 0;
   }
   .partners__wrapper {
     display: -webkit-box;
@@ -827,9 +844,16 @@ body {
   .subscribe-form {
     background: -webkit-gradient(linear, right top, left top, color-stop(-1.04%, #295c7a), to(#0072b5));
     background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
+    padding: 30px 40px;
+  }
+  .subscribe-form__title.title-secondary {
+    padding-bottom: 30px;
   }
   .form {
-    max-width: 330px;
+    max-width: 260px;
+  }
+  .form__input {
+    max-width: 160px;
   }
 }
 
@@ -940,6 +964,12 @@ body {
   }
   .contact__item {
     padding: 50px 40px 50px 40px;
+  }
+  .contact__text.main-text {
+    font-weight: 700;
+  }
+  .consultation {
+    padding: 40px 70px;
   }
   .consultation-wrapper {
     -webkit-box-orient: vertical;

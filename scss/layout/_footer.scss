@@ -68,5 +68,9 @@
 @media (max-width: 420px) {
     .footer-content {
         grid-template-columns: repeat(1, 1fr);
+        padding: 0 0 55px 70px;
+    }
+    .footer-bottom {
+        padding: 25px 70px 25px 70px;
     }
 }

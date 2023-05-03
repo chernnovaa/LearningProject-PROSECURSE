@@ -45,9 +45,16 @@
 }
 
 @media (max-width: 750px) {
-    .client__box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .client {
+        padding-top: 100px;
+        &__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 75px;
+        }
+        &__text {
+            max-width: 206px;
+        }
     }
 }
